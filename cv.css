@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+background-color: #EEE;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+max-width: 1000px;
+background-color: #e9fffb;
+margin: 0 auto;
+padding: 20px;
+
+}
+#sourovimg{
+ height: 150px;
+ width: 120px;
+ border-radius: 50%;
+ border: 3px solid white ;
+ float:left;
+
+}
+.headerdiv1{
+    padding-top: 60px;
+    padding-left: 30px;
+    float: left;
+}
+.headerdiv2{
+padding: 30px;
+float: right;
+
+}
+.headerdiv2 a{
+    text-decoration: none;
+ color: teal;
+ font-weight: bold;
+ font-size: large;
+
+}
+.headerdiv2 a:hover{
+ color: tomato;
+ text-decoration:underline ;
+       font-size: 20px;
+       cursor:pointer;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(3, 112, 67);
+}
+.div-clear{
+clear: both;
+
+}
+hr{
+border: solid black 3px;
+width: 100%;
+margin: 10px auto;
+border-bottom: none;
+}
+
+/*------------------
+personal information
+-------------------*/
+#personal{
+margin-top: 0px;
+
+
+}
+.information{
+ margin-bottom: 20px;
+
+
+}
+.left-div{
+width: 30%;
+float: left;
+
+
+}
+.right-div{
+    width: 70%;
+    margin-top: 2px;
+   float: right;
+
+}
+.common-hr{
+    clear: both;
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.link1 a{
+color: teal;
+text-decoration: none;
+opacity: 0.5;
+
+}
+.link1 a:hover{
+    color: tomato;
+    text-decoration: underline;
+    opacity: 1;
+    }
+    .ref-left{
+        float: left;
+        width: 45%;
+
+    }
+    .ref-right{
+     float: right;
+     width: 45%;
+    }  
+
+    /*------------
+    footer start
+    --------------*/
+    .footer1{
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .footerclass{
+        height: 30px;
+        width: 27%;
+        margin: 0 auto;
+    }
+    .footer1 a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer1 div ul li{ 
+        list-style-type:none;
+        margin-left: 15px;
+       float: left;
+       }
+       .footer1 div ul li a:hover{ 
+        text-decoration: underline;
+        color: yellow;
+        font-size: 19px;
+
+       }
+       #copy{
+        color: white;
+       }
